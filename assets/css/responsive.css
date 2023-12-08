@@ -1,0 +1,64 @@
+@media screen and (max-width: 1200px) {
+    .right-info, section#book-table .left-image img {
+        height: 310px;
+    }
+    #error, #error1 {
+        font-size: 11px;
+    }
+    .blog-post .right-content, .blog-post img {
+        height: 220px;
+    }
+    .blog-post p {
+        font-size: 12px;
+    }
+    .blog-post .right-content .text-button a {
+        font-size: 10px;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .right-info {
+        height: 550px;
+    }
+    section#book-table .left-image img {
+        height: 500px;
+    }
+    #error, #error1 {
+        font-size: 14px;
+    }
+    .blog-post {
+        width: 100%;
+    }
+    .blog-post img {
+        height: 500px;
+    }
+    .blog-post .right-content {
+        height: 280px;
+    }
+    .blog-post p, .blog-post .right-content span {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .blog-post .right-content .text-button a {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    section.sign-up {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .right-info {
+        height: 600px;
+    }
+    #error, #error1 {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 600px) {
+    section.sign-up {
+        height: 400px;
+    }
+}
