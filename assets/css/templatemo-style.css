@@ -691,7 +691,10 @@ footer ul li i:hover {
 }
 
 
-
+.social-icons a {
+	margin: 0px 10px;
+	color: #fff;
+}
 
 section.page-heading {
 	padding: 80px 0px;

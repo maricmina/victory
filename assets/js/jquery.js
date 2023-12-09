@@ -8,8 +8,5 @@ jQuery(document).ready(function($) {
       itemsTablet: [600, 1],
       itemsMobile: false
   });
-
-  
-  
 });
 

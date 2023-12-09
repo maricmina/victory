@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<channel>
+<title>
+<![CDATA[ GitHub - maricmina/mhomes ]]>
+</title>
+<description>
+<![CDATA[ Contribute to maricmina/mhomes development by creating an account on GitHub. ]]>
+</description>
+<link>https://github.com/maricmina/mhomes</link>
+<image>
+<url>https://github.githubassets.com/favicons/favicon.svg</url>
+<title>GitHub - maricmina/mhomes</title>
+<link>https://github.com/maricmina/mhomes</link>
+</image>
+<generator>https://rss.app</generator>
+<lastBuildDate>Sun, 25 Jun 2023 02:38:41 GMT</lastBuildDate>
+<atom:link href="https://rss.app/feeds/u20z6NCHefuK16SH.xml" rel="self" type="application/rss+xml"/>
+<language>
+<![CDATA[ en ]]>
+</language>
+<item>
+<title>
+<![CDATA[ {{ refName }} default ]]>
+</title>
+<link>https://github.com/maricmina/mhomes/tree/%7B%7B%20urlEncodedRefName%20%7D%7D</link>
+<guid isPermaLink="false">0a91f19303d57cfa2b67b79cd2f6b04b</guid>
+<dc:creator>
+<![CDATA[ github.com ]]>
+</dc:creator>
+</item>
+<item>
+<title>
+<![CDATA[ HTML 81.2% ]]>
+</title>
+<link>https://github.com/maricmina/mhomes/search?l=html</link>
+<guid isPermaLink="false">cbe485d52c7320009d4936377776696f</guid>
+<dc:creator>
+<![CDATA[ github.com ]]>
+</dc:creator>
+</item>
+<item>
+<title>
+<![CDATA[ CSS 18.8% ]]>
+</title>
+<link>https://maricmina.github.io/victory/</link>
+<guid isPermaLink="false">6c7e7d75a6808c695ca6cfeb8d58c7cd</guid>
+<dc:creator>
+<![CDATA[ github.com ]]>
+</dc:creator>
+</item>
+<item>
+<title>
+<![CDATA[ GitHub - maricmina/victory ]]>
+</title>
+<description>
+<![CDATA[ <div><img src="https://opengraph.githubassets.com/6e0fa07ee3fa5d4d3dc03561720333ff842b57cc26c3f2dcc0881602819632aa/maricmina/victory" style="width: 100%;" /><div>Contribute to maricmina/victory development by creating an account on GitHub.</div></div> ]]>
+</description>
+<link>https://maricmina.github.io/victory/</link>
+<guid isPermaLink="false">1e3653b0bcc2b96c1c6aa446e863d698</guid>
+<dc:creator>
+<![CDATA[ GitHub ]]>
+</dc:creator>
+<media:content medium="image" url="https://opengraph.githubassets.com/6e0fa07ee3fa5d4d3dc03561720333ff842b57cc26c3f2dcc0881602819632aa/maricmina/victory"/>
+</item>
+<item>
+<title>
+<![CDATA[ maricmina - Packages ]]>
+</title>
+<description>
+<![CDATA[ <div><img src="https://avatars.githubusercontent.com/u/127913381?v=4?s=400" style="width: 100%;" /><div>maricmina has 4 repositories available. Follow their code on GitHub.</div></div> ]]>
+</description>
+<link>https://maricmina.github.io/victory/</link>
+<guid isPermaLink="false">44fa820aa05270df1c7ab9066514dc26</guid>
+<dc:creator>
+<![CDATA[ GitHub ]]>
+</dc:creator>
+<media:content medium="image" url="https://avatars.githubusercontent.com/u/127913381?v=4?s=400"/>
+</item>
+</channel>
+</rss>
