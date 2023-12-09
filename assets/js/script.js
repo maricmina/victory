@@ -189,16 +189,58 @@ function provera2(event) {
 }
 
 
+function validateForm() {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
+    var message = document.getElementById('message').value;
 
-$(document).ready(function() {
-    $(".prvoDugme").mouseover(function() {
-        $(this).animate({ backgroundColor: "#f05e44" }, "slow");
-    });
-  
-    $(".prvoDugme").mouseout(function() {
-        $(this).animate({ backgroundColor: "#f2745f" }, "slow");
-    });
-  });
+    clearErrors();
+
+    var isValid = true;
+
+    var regIme = /^[A-Z][a-z]{2,15}(\s[A-Z][a-z]{4,20})?$/;
+    if (!regIme.test(name)) {
+        document.getElementById('errorName').textContent = "Name must start with a capital and have minimal 3 letters!";
+        document.getElementById('name').classList.add('error-border');
+        isValid = false;
+    }
+
+    var SignUpReg = /^[a-z]{4,}[0-9]*(@gmail.com|@yahoo.com|@ict.edu.rs)$/;
+    if (!SignUpReg.test(email)) {
+        document.getElementById('errorEmail').textContent = "Use lowercase letters, without '.' and '@gmail.com' or '@ict.edu.rs' at the end.";
+        document.getElementById('email').classList.add('error-border');
+        isValid = false;
+    }
+
+    var regTel = /^(06)[\d]{8,15}/
+    if (!regTel.test(phone)) {
+        document.getElementById('errorPhone').textContent = "Phone number must start with '06' and have 8-15 digits!";
+        document.getElementById('phone').classList.add('error-border');
+        isValid = false;
+    }
+    
+    if (message.length < 10) {
+        document.getElementById('errorMessage').textContent = "Message should be at least 10 characters long.";
+        document.getElementById('message').classList.add('error-border');
+        isValid = false;
+    }
+
+
+    return isValid;
+}
+
+function clearErrors() {
+    var errorElements = document.getElementsByClassName('error');
+    for (var i = 0; i < errorElements.length; i++) {
+        errorElements[i].textContent = "";
+    }
+
+    var formElements = document.getElementsByClassName('form-control');
+    for (var i = 0; i < formElements.length; i++) {
+        formElements[i].classList.remove('error-border');
+    }
+}
 
 
   $(document).ready(function() {
@@ -279,6 +321,7 @@ $(document).ready(function() {
         });
     });
     
+
 
 }});
 

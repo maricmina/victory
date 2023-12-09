@@ -719,6 +719,13 @@ section.page-heading {
 	margin-bottom: 0px;
 }
 
+.left-image img {
+    transition: transform 0.3s ease;
+}
+
+.left-image.zoomable img {
+    transform: scale(1.2);
+}
 
 
 
@@ -860,102 +867,86 @@ section.dinner-menu .price {
 }
 
 
-
-
-section.blog-page {
-	margin-top: 100px;
+#autor {
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-section.blog-page .page-number {
-	padding: 0;
-	margin-top: 30px;
-	margin-bottom: 100px;
-	list-style: none;
+#autor h1 {
 	text-align: center;
-	width: 100%;
+	color: #000;
+	font-weight: bold;
+	padding-bottom: 80px;
 }
 
-section.blog-page .page-number li {
-	display: inline-block;
-	margin: 0 3px;
+#tekst {
+	border-bottom: 2px solid #363e50;
+	border-left: 2px solid #363e50;
 }
 
-section.blog-page .page-number li.active a {
-	background-color: #f2745f;
-	color: #fff;
+#biografija {
+	border-top: 2px solid #363e50;
+	border-right: 2px solid #363e50;
 }
 
-section.blog-page .page-number li a {
-	transition: all 0.5s;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	display: inline-block;
+#tekst, #slika, #biografija {
+	height: 350px;
 	text-align: center;
-	background-color: #f2f6ff;
-	font-size: 15px;
-	color: #343434;
-	font-weight: 700;
-	text-decoration: none;
 }
 
-section.blog-page .page-number li a:hover {
-	background-color: #f2745f;
-	color: #fff;
+#tekst, #biografija {
+	padding-top: 30px;
 }
 
-.blog-item img {
-	width: 100%;
-	overflow: hidden;
+#slika img {
+	width: 70%;
 }
 
-.blog-item {
-	margin-bottom: 30px;
+#autor h3 {
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 50px;
 }
 
-.blog-item .down-content {
-	background-color: #f2f6ff;
-	padding: 20px 30px;
+#autor p {
+	font-size: 18px;
+	color: #000;
 }
 
-.blog-item .down-content h4 {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-bottom: 8px;
-	/* font-family: 'Spectral', serif; */
-	font-size: 21px;
-	color: #121212;
+#biografija p {
+	line-height: 2em;
 }
 
-.blog-item .down-content span {
-	font-size: 13px;
-	color: #7a7a7a;
-	display: inline-block;
-	margin-bottom: 18px;
+#tekst span {
+	color: #363e50;
+	font-weight: bold;
 }
 
-.blog-item .down-content .text-button a {
-	font-size: 13px;
-	font-weight: 500;
-	color: #f2745f;
-	text-decoration: none;
-	text-transform: uppercase;
-	margin-top: 12px;
-	display: inline-block;
+.error {
+    color: red;
+    font-size: 14px;
+	position: relative;
+	bottom: 25px;
 }
 
-.blog-item .date {
-	font-size: 17px;
-	color: #f2745f;
-	font-weight: 500;
-	letter-spacing: 0.5px;
-	padding: 8px 14px;
-	position: absolute;
-	left: 15px;
-	top: 0px;
-	background-color: rgba(250, 250, 250, 0.9);
+
+
+.success {
+    color: green;
+	font-size: 14px;
+    font-weight: bold;
+    position: relative;
+	bottom: 25px;
 }
 
+
+.success1 {
+    color: green;
+    font-size: 16px;
+    margin-top: 10px;
+}
 
 section.contact-us {
 	margin-top: 100px;
@@ -1111,9 +1102,27 @@ section.map #map {
 		padding: 0px 5%;
 
 	}
+	#autor {
+		height: 1500px;
+	}
+	#slika img {
+		width: 50%;
+	}
+	#tekst, #biografija {
+		border: none;
+	}
+	#biografija {
+		margin-top: 200px;
+		width: 70%;
+		position: relative;
+		left: 12%;
+	}
 }
 
 @media (max-width: 768px) {
+	#biografija {
+		margin-top: 150px;
+	}
 	.navbar-toggle {
 	    position: relative;
 	    float: none;
@@ -1226,6 +1235,8 @@ section.map #map {
 		margin-top: 80px;
 	}
 }
-@media (max-width: 480px) {
-
+@media (max-width: 640px) {
+	#slika img {
+		width: 350px;
+	}
 }
