@@ -322,6 +322,21 @@ function clearErrors() {
     });
     
 
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#scrollToTopBtn').removeClass('hidden');
+            } else {
+                $('#scrollToTopBtn').addClass('hidden');
+            }
+        });
+    
+        $('#scrollToTopBtn').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 800);
+            return false;
+        });
+    });
+    
 
 }});
 
