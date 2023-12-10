@@ -99,7 +99,7 @@
                                     <span id="errorMessage" class="error"></span>
                                 </fieldset>
                                 <fieldset>
-                                    <button type="submit" id="form-submit" class="btn" onclick="validateForm()">Send Message</button>
+                                    <button type="submit" id="form-submit" class="btn prvoDugme" onclick="validateForm()">Send Message</button>
                                 </fieldset>
                             </div>
                         </div>
@@ -212,6 +212,15 @@
                         }
                     );
                  });
+                 $(document).ready(function() {
+                    $(".prvoDugme").mouseover(function() {
+                        $(this).css({backgroundColor: "#f05e44" });
+                    });
+
+                    $(".prvoDugme").mouseout(function() {
+                        $(this).css({ backgroundColor: "#f2745f" });
+                    });
+                });
                 </script>
     <script src="assets/js/script.js" type="text/javascript"></script>
 </body>
