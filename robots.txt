@@ -1,2 +1,2 @@
-User-agent  
-Disallow assetsimages
+User-agent: * 
+Disallow: /assets/images/
